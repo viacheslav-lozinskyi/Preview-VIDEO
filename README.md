@@ -12,7 +12,7 @@
 
 ---
 
-![Image](https://viacheslav-lozinskyi.github.io/Preview-VIDEO/resource/video/Presentation1.gif)
+![Image](resource/video/Presentation1.gif)
 
 ---
 
