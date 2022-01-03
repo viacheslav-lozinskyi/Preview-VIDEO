@@ -20,7 +20,7 @@ Download the extension from the [Visual Studio Marketplace](https://marketplace.
 
 ---
 
-Data visualization is based on [MetaOutput](https://www.metaoutput.net)
+Data visualization is based on [MetaOutput](https://www.metaoutput.net/?utm_source=github.com&utm_medium=referral&utm_campaign=redirect-to-homepage&utm_term=2021-11-21&utm_content=preview-video)
 
 Data extraction is based on [TagLib-Sharp](https://github.com/mono/taglib-sharp) and [MetadataExtractor](https://github.com/drewnoakes/metadata-extractor-dotnet)
 
