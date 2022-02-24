@@ -8,7 +8,7 @@
 
 ---
 
-[![MetaOutput](https://www.metaoutput.net/_functions/watch?nolocation=true&utm_source=github.com&utm_medium=referral&utm_campaign=view-on-github&utm_term=2022-02-09&utm_content=Preview-VIDEO&source=GITHUB&size=128x128&project=Preview-VIDEO&url=https://marketplace.visualstudio.com/items?itemName=ViacheslavLozinskyi.Preview-VIDEO)](https://www.metaoutput.net/)
+[![MetaOutput](https://www.metaoutput.net/_functions/watch?nolocation=true&utm_source=github.com&utm_medium=referral&utm_campaign=view-on-github&utm_term=2022-02-09&utm_content=Preview-VIDEO&source=GITHUB&size=128x128&project=Preview-VIDEO&url=https://github.com/viacheslav-lozinskyi/Preview-VIDEO)](https://www.metaoutput.net/)
 
 ### This extension is working only with installed [MetaOutput](https://www.metaoutput.net/) extension!
 
