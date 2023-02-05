@@ -20,15 +20,17 @@ namespace resource.preview
                 }
             }
             {
-                var a_Size = GetProperty(NAME.PROPERTY.PREVIEW_MEDIA_SIZE, true);
+                var a_Count = GetProperty(NAME.PROPERTY.PREVIEW_MEDIA_SIZE, true);
                 {
-                    a_Size = Math.Min(a_Size, __GetInteger(a_Context, "Height") / CONSTANT.OUTPUT.PREVIEW_ITEM_HEIGHT);
-                    a_Size = Math.Max(a_Size, CONSTANT.OUTPUT.PREVIEW_MIN_SIZE);
+                    a_Count = Math.Min(a_Count, __GetInteger(a_Context, "Height") / CONSTANT.OUTPUT.PREVIEW_ITEM_HEIGHT);
+                    a_Count = Math.Max(a_Count, CONSTANT.OUTPUT.PREVIEW_MIN_SIZE);
                 }
-                for (var i = 0; i < a_Size; i++)
                 {
                     context.
-                        Send(NAME.SOURCE.PREVIEW, NAME.EVENT.PREVIEW, level);
+                        SetControl(NAME.CONTROL.VIDEO).
+                        SetCount(a_Count).
+                        SetUrlPreview(url).
+                        Send(NAME.SOURCE.PREVIEW, NAME.EVENT.CONTROL, level);
                 }
             }
             {
